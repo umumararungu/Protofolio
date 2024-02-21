@@ -3,8 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="output.css">
+        <script src="https://cdn.tailwindcss.com"></script>
         <title>Protofolio</title>
+<script>
+
+tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        },
+        screens:{
+      'mob1': {'max': '425px'},
+      'md':{'min': '767px'},
+      'lg':{'min': '992px'},
+
+    },
+    zIndex:{
+      'z-one': '-1',
+    },
+    flexBasis:{
+      'new':'24%'
+    }
+  }
+      }
+    
+</script>
+
+
     </head>
 
     <body >
